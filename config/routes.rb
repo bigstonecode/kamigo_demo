@@ -28,7 +28,8 @@ Rails.application.routes.draw do
 
   # 實作骰子
   get "骰", to: "home#disc"
-
+  
+  #今日運勢
   get "今日運勢", to: "home#fortune"
 
   # 查天氣

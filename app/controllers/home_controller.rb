@@ -25,6 +25,10 @@ class HomeController < ApplicationController
     @k=array.sample
   end
 
+  def fortune
+    @fortune=["踩到狗屎","撿到錢","中樂透"].sample
+  end
+
   private
 
   def get_profile(user_id)
