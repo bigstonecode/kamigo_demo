@@ -20,6 +20,11 @@ class HomeController < ApplicationController
   def test
   end
 
+  def disc
+    array=[1,2,3,4,5,6]
+    @k=array.sample
+  end
+
   private
 
   def get_profile(user_id)
